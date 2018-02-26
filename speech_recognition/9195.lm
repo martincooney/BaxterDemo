@@ -1,0 +1,67 @@
+Language model created by QuickLM on Thu Aug 31 16:46:16 EDT 2017
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 9 sentences and 13 words
+
+\data\
+ngram 1=13
+ngram 2=20
+ngram 3=11
+
+\1-grams:
+-0.8092 </s> -0.3010
+-0.8092 <s> -0.2278
+-1.7634 CAPACITOR -0.2278
+-1.7634 DIODE -0.2278
+-1.7634 DIVIDER -0.2278
+-1.7634 LAW -0.2278
+-1.7634 LED -0.2278
+-1.7634 LIGHT -0.2278
+-1.7634 OHM'S -0.2935
+-1.7634 RESISTOR -0.2278
+-1.7634 SWITCH -0.2278
+-1.7634 TRANSISTOR -0.2278
+-1.7634 VOLTAGE -0.2935
+
+\2-grams:
+-1.2553 <s> CAPACITOR 0.0000
+-1.2553 <s> DIODE 0.0000
+-1.2553 <s> LED 0.0000
+-1.2553 <s> LIGHT 0.0000
+-1.2553 <s> OHM'S 0.0000
+-1.2553 <s> RESISTOR 0.0000
+-1.2553 <s> SWITCH 0.0000
+-1.2553 <s> TRANSISTOR 0.0000
+-1.2553 <s> VOLTAGE 0.0000
+-0.3010 CAPACITOR </s> -0.3010
+-0.3010 DIODE </s> -0.3010
+-0.3010 DIVIDER </s> -0.3010
+-0.3010 LAW </s> -0.3010
+-0.3010 LED </s> -0.3010
+-0.3010 LIGHT </s> -0.3010
+-0.3010 OHM'S LAW 0.0000
+-0.3010 RESISTOR </s> -0.3010
+-0.3010 SWITCH </s> -0.3010
+-0.3010 TRANSISTOR </s> -0.3010
+-0.3010 VOLTAGE DIVIDER 0.0000
+
+\3-grams:
+-0.3010 <s> CAPACITOR </s>
+-0.3010 <s> DIODE </s>
+-0.3010 <s> LED </s>
+-0.3010 <s> LIGHT </s>
+-0.3010 <s> OHM'S LAW
+-0.3010 <s> RESISTOR </s>
+-0.3010 <s> SWITCH </s>
+-0.3010 <s> TRANSISTOR </s>
+-0.3010 <s> VOLTAGE DIVIDER
+-0.3010 OHM'S LAW </s>
+-0.3010 VOLTAGE DIVIDER </s>
+
+\end\
