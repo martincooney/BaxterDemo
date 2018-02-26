@@ -15,10 +15,15 @@ You can get the robot to paint by recording motions, or have the robot introduce
 This repository should include:
 
 robot_faces: some example faces for Baxter's display
+
 scripts: the python backend
+
 src: the C++ frontend  
+
 speech_recognition: example files for recognizing some names of electronics parts (e.g. for a quiz)
+
 baxter_manual
+
 this readme file
 
 
