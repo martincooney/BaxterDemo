@@ -8,6 +8,7 @@ Baxter Basic Demo: e.g., Art and Teaching
 
 This is code for a basic demo of the Baxter robot.
 You can get the robot to paint by recording motions, or have the robot introduce itself in a classroom, etc.
+Extended versions of this code were used for the Baxter robot to paint some paintings for the international robot art competition (robotart.org), and to act as a teaching assistant for the Design of Embedded and Intelligent Systems (DEIS) robotics course at Halmstad University, Sweden.
 
 
 2. Content
